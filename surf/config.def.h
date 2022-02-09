@@ -9,6 +9,9 @@ static char *cookiefile     = "~/.surf/cookies.txt";
 static char *dldir          = "~/Downloads/";
 static char *dlstatus       = "~/.surf/dlstatus/";
 
+/* homepage */
+#define HOMEPAGE "https://qwant.com/"
+
 /* enable to open GO prompt on startup */
 static int startgo = 1;
 
@@ -204,4 +207,3 @@ static Button buttons[] = {
 	{ OnMedia,      MODKEY,         1,      clickexternplayer, { 0 },       1 },
 };
 
-#define HOMEPAGE "https://duckduckgo.com/"
